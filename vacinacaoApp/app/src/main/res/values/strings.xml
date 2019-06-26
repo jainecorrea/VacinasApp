@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_opcoes"></string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+    <string name="nav_header_title">VacinasApp</string>
+    <string name="nav_header_subtitle">vacinacaoapp2019@gmail.com</string>
+    <string name="nav_header_desc"></string>
+    <string name="action_settings"></string>
+</resources>

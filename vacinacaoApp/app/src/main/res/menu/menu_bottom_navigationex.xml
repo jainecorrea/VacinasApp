@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_vacinas"
+        android:icon="@drawable/teste"
+        android:title="Vacinas" />
+
+    <item
+        android:id="@+id/ic_campanhas"
+        android:icon="@drawable/ic_campanhas_preto_24dp"
+        android:title="Campanhas" />
+</menu>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jaine.vacinacaoapp">
+
+    <!-- Define recursos que são importantes para o aplicativo funcionar corretamente -->
+    <!-- Com camera2 basicamente dizemos que estamos precisando da câmera do usuário -->
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="true" />
+    <!-- Permissões -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Permissão de acesso a galeria -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Permissão de acesso a camera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- Permissão de acesso a internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.activity.LoginActivity">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.activity.MainActivity" />
+        <activity android:name=".activity.activity.CadastroActivity" />
+        <activity
+            android:name=".activity.activity.OpcoesActivity"
+            android:label="@string/title_activity_opcoes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.activity.UsuarioActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.AbasActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.NovaCampanhaActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.ListaVacinaActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.AlterarDadosActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.CampanhasActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.LembretesActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.NovoLembreteActivity"
+            android:parentActivityName=".activity.activity.LembretesActivity" />
+        <activity
+            android:name=".activity.activity.NovaAlturaActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.NovoPesoActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.PesoAlturaActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.InformacoesActivity"
+            android:parentActivityName=".activity.activity.DescricaoVacinaActivity" />
+        <activity
+            android:name=".activity.activity.DescricaoVacinaActivity"
+            android:parentActivityName=".activity.activity.InformacoesActivity" />
+
+        <activity android:name=".activity.teste.SplashActivity" />
+        <activity android:name=".activity.teste.AutenticacaoActivity" />
+        <activity android:name=".activity.teste.AdicionarVacinaActivity"></activity>
+    </application>
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+        <activity android:name=".activity.teste.SplashActivity" />
+        <activity android:name=".activity.teste.AutenticacaoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity android:name=".activity.teste.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.teste.AutenticacaoActivity" />
+        <activity
+            android:name=".activity.activity.OpcoesActivity"
+            android:label="@string/title_activity_opcoes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.activity.UsuarioActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.AbasActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.NovaCampanhaActivity"
+            android:parentActivityName=".activity.activity.AbasActivity" />
+        <activity
+            android:name=".activity.activity.ListaVacinaActivity"
+            android:parentActivityName=".activity.activity.AbasActivity" />
+        <activity
+            android:name=".activity.activity.AlterarDadosActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.CampanhasActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.LembretesActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.NovoLembreteActivity"
+            android:parentActivityName=".activity.activity.LembretesActivity" />
+        <activity
+            android:name=".activity.activity.NovaAlturaActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.NovoPesoActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.activity.PesoAlturaActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity
+            android:name=".activity.teste.InformacoesActivity"
+            android:parentActivityName=".activity.teste.MenuAdminActivity" />
+        <activity
+            android:name=".activity.teste.DescricaoVacinaActivity"
+            android:parentActivityName=".activity.teste.InformacoesActivity" />
+        <activity
+            android:name=".activity.teste.AdicionarVacinaActivity"
+            android:parentActivityName=".activity.teste.InformacoesActivity" />
+        <activity
+            android:name=".activity.teste.AlterarAdminActivity"
+            android:parentActivityName=".activity.teste.InformacoesActivity" />
+        <activity
+            android:name=".activity.activity.DadosVacinaActivity"
+            android:parentActivityName=".activity.activity.ListaVacinaActivity" />
+        <activity android:name=".activity.teste.MenuAdminActivity" />
+        <activity
+            android:name=".activity.teste.CampanhasAdminActivity"
+            android:parentActivityName=".activity.teste.InformacoesActivity" />
+        <activity
+            android:name=".activity.teste.AdicionarCampanhasActivity"
+            android:parentActivityName=".activity.teste.CampanhasAdminActivity" />
+        <activity
+            android:name=".activity.teste.AlterarCampanhasAdminActivity"
+            android:parentActivityName=".activity.teste.CampanhasAdminActivity" />
+        <activity
+            android:name=".activity.teste.DescricaoCampanhaAdminActivity"
+            android:parentActivityName=".activity.teste.CampanhasAdminActivity" />
+        <activity
+            android:name=".activity.activity.SobreVacinaActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity android:name=".activity.teste.TesteVacinaRealizadaActivity"/>
+        <activity
+            android:name=".activity.activity.MainActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity" />
+        <activity android:name=".activity.activity.CalendarioBasicoActivity"
+            android:parentActivityName=".activity.activity.OpcoesActivity"/>
+    </application>
+
+</manifest>

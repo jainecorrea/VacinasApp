@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cadernetas"
+            android:icon="@drawable/ic_sobre_vacinas_preto_24dp"
+            android:title="Minhas cadernetas" />
+        <!--<item
+            android:id="@+id/calendarioBasico"
+            android:icon="@drawable/ic_class_black_24dp"
+            android:title="Calendário Básico"/>-->
+        <item
+            android:id="@+id/sobre"
+            android:icon="@drawable/teste"
+            android:title="Sobre as vacinas" />
+        <item
+            android:id="@+id/campanhas"
+            android:icon="@drawable/ic_campanhas_preto_24dp"
+            android:title="Notificações de campanhas" />
+        <item
+            android:id="@+id/sobreApp"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Sobre o aplicativo" />
+        <item
+            android:id="@+id/sair"
+            android:icon="@drawable/ic_sair_preto_24dp"
+            android:title="Sair" />
+    </group>
+</menu>

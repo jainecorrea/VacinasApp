@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+
+    <!--Apenas uma cor para a caixa de texto, por isso solid-->
+    <!--O número 30 refere-se a opacidade
+    <solid android:color="#80FFFFFF"></solid>-->
+    <!--Define o arredondamento da caixa de texto-->
+    <corners android:radius="10dp"></corners>
+</shape>
